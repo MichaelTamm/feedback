@@ -1,3 +1,7 @@
+## [2.2.2]
+
+* Fix backspace not working in some cases ([#120](https://github.com/ueman/feedback/issues/120), [#177](https://github.com/ueman/feedback/issues/177))
+
 ## [2.2.1]
 
 * The feedback ui always opens in the configured mode [#137](https://github.com/ueman/feedback/pull/137)

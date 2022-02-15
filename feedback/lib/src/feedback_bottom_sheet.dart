@@ -27,7 +27,7 @@ class FeedbackBottomSheet extends StatelessWidget {
       onGenerateRoute: (_) => MaterialPageRoute<void>(
         builder: (context) => Material(
           color: FeedbackTheme.of(context).feedbackSheetColor,
-          child: feedbackBuilder(context, onSubmit),
+          child: DefaultTextEditingShortcuts(child: feedbackBuilder(context, onSubmit)),
         ),
       ),
     );
